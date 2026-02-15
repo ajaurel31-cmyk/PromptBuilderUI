@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--surface-0);
+    color: var(--text-primary);
+  }
+}
+
+@layer components {
+  .pb-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .pb-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .pb-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--prompt-border);
+    border-radius: 3px;
+  }
+  .pb-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: var(--text-tertiary);
+  }
+}
