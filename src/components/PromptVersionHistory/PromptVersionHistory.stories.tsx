@@ -26,7 +26,7 @@ const SAMPLE_VERSIONS: PromptVersion[] = [
 ]
 
 const meta: Meta<typeof PromptVersionHistory> = {
-  title: 'Components/PromptVersionHistory',
+  title: 'Pro/PromptVersionHistory',
   component: PromptVersionHistory,
   parameters: { layout: 'centered' },
   decorators: [

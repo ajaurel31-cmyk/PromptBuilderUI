@@ -46,7 +46,7 @@ const SAMPLE_TEMPLATES: PromptTemplate[] = [
 ]
 
 const meta: Meta<typeof PromptTemplateSelector> = {
-  title: 'Components/PromptTemplateSelector',
+  title: 'Pro/PromptTemplateSelector',
   component: PromptTemplateSelector,
   parameters: { layout: 'centered' },
   decorators: [

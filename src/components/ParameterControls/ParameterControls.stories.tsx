@@ -4,7 +4,7 @@ import { ParameterControls } from './ParameterControls'
 import type { ModelParameters } from '../../types'
 
 const meta: Meta<typeof ParameterControls> = {
-  title: 'Components/ParameterControls',
+  title: 'Starter/ParameterControls',
   component: ParameterControls,
   parameters: { layout: 'centered' },
   decorators: [

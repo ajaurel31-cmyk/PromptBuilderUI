@@ -31,7 +31,7 @@ const SAMPLE_STEPS: ChainStep[] = [
 ]
 
 const meta: Meta<typeof PromptChain> = {
-  title: 'Components/PromptChain',
+  title: 'Pro/PromptChain',
   component: PromptChain,
   parameters: { layout: 'centered' },
   decorators: [

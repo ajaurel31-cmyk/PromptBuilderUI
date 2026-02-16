@@ -23,7 +23,7 @@ You are a senior software engineer with expertise in TypeScript, React, and syst
 - Follow the principle of least surprise`
 
 const meta: Meta<typeof SystemPromptEditor> = {
-  title: 'Components/SystemPromptEditor',
+  title: 'Pro/SystemPromptEditor',
   component: SystemPromptEditor,
   parameters: { layout: 'centered' },
   decorators: [

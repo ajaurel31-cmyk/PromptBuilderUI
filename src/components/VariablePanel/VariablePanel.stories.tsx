@@ -12,7 +12,7 @@ const SAMPLE_VARIABLES: PromptVariable[] = [
 ]
 
 const meta: Meta<typeof VariablePanel> = {
-  title: 'Components/VariablePanel',
+  title: 'Starter/VariablePanel',
   component: VariablePanel,
   parameters: { layout: 'centered' },
   decorators: [

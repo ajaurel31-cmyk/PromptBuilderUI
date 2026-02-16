@@ -18,7 +18,7 @@ const SAMPLE_MENTIONS: Mention[] = [
 ]
 
 const meta: Meta<typeof PromptComposer> = {
-  title: 'Components/PromptComposer',
+  title: 'Starter/PromptComposer',
   component: PromptComposer,
   parameters: { layout: 'centered' },
   decorators: [

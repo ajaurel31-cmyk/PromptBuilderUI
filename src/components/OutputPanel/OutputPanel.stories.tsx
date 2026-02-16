@@ -20,7 +20,7 @@ const SAMPLE_JSON = JSON.stringify({
 }, null, 2)
 
 const meta: Meta<typeof OutputPanel> = {
-  title: 'Components/OutputPanel',
+  title: 'Starter/OutputPanel',
   component: OutputPanel,
   parameters: { layout: 'centered' },
   decorators: [

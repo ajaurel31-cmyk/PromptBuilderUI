@@ -4,24 +4,37 @@ A polished, copy-paste React component library for developers building AI-powere
 
 ---
 
-## What's Included
+## Pricing Tiers
+
+### Starter — $49
+
+6 core components to get you building right away.
 
 | # | Component | Description |
 |---|-----------|-------------|
 | 1 | **PromptComposer** | Auto-expanding textarea with variable highlighting, slash commands, @-mentions, token counting, Cmd+Enter submit |
 | 2 | **VariablePanel** | Auto-detects `{{variables}}` from prompt text, renders typed inputs (text, textarea, number, select, toggle), live preview |
-| 3 | **PromptTemplateSelector** | Searchable grid/list template picker with categories, favorites, hover preview |
-| 4 | **SystemPromptEditor** | Editor + sections mode with drag-reorder, collapsible blocks, per-section token counts |
-| 5 | **ModelSelector** | Grouped dropdown with provider colors, pricing, speed ratings, side-by-side compare mode |
-| 6 | **ParameterControls** | Temperature/TopP/MaxTokens sliders with labeled zones, presets (Precise/Balanced/Creative/Code) |
-| 7 | **ConversationThread** | Chat bubbles with markdown/code rendering, streaming typewriter effect, copy per message |
-| 8 | **PromptChain** | Visual pipeline builder with drag-reorder, status indicators, output variable mapping |
-| 9 | **OutputPanel** | Tabbed text/JSON/markdown/diff views, copy, regenerate, side-by-side comparison |
-| 10 | **PromptVersionHistory** | Timeline with diff viewer, compare mode, restore, tags/labels |
-| 11 | **TokenBudgetBar** | Segmented bar (system/user/response) with warning states and color-coded legend |
+| 3 | **ParameterControls** | Temperature/TopP/MaxTokens sliders with labeled zones, presets (Precise/Balanced/Creative/Code) |
+| 4 | **ConversationThread** | Chat bubbles with markdown/code rendering, streaming typewriter effect, copy per message |
+| 5 | **OutputPanel** | Tabbed text/JSON/markdown/diff views, copy, regenerate, side-by-side comparison |
+| 6 | **TokenBudgetBar** | Segmented bar (system/user/response) with warning states and color-coded legend |
+
+Includes: 30+ custom SVG icons, 3 hooks, utility functions, and full type definitions.
+
+### Pro — $99
+
+Everything in Starter, plus 6 advanced components, the demo workbench, and Storybook stories.
+
+| # | Component | Description |
+|---|-----------|-------------|
+| 7 | **PromptTemplateSelector** | Searchable grid/list template picker with categories, favorites, hover preview |
+| 8 | **SystemPromptEditor** | Editor + sections mode with drag-reorder, collapsible blocks, per-section token counts |
+| 9 | **ModelSelector** | Grouped dropdown with provider colors, pricing, speed ratings, side-by-side compare mode |
+| 10 | **PromptChain** | Visual pipeline builder with drag-reorder, status indicators, output variable mapping |
+| 11 | **PromptVersionHistory** | Timeline with diff viewer, compare mode, restore, tags/labels |
 | 12 | **FewShotExampleManager** | Input/output pairs, drag-reorder, toggle enable/disable, token counts, auto-format |
 
-Plus: 30+ custom SVG icons, 3 hooks, utility functions, full type definitions, and a complete workbench demo.
+Pro also includes: Full Workbench demo app, Storybook configuration, and all component stories.
 
 ---
 

@@ -15,7 +15,7 @@ const SAMPLE_MODELS: AIModel[] = [
 ]
 
 const meta: Meta<typeof ModelSelector> = {
-  title: 'Components/ModelSelector',
+  title: 'Pro/ModelSelector',
   component: ModelSelector,
   parameters: { layout: 'centered' },
   decorators: [

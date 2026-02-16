@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { TokenBudgetBar } from './TokenBudgetBar'
 
 const meta: Meta<typeof TokenBudgetBar> = {
-  title: 'Components/TokenBudgetBar',
+  title: 'Starter/TokenBudgetBar',
   component: TokenBudgetBar,
   parameters: { layout: 'padded' },
   decorators: [

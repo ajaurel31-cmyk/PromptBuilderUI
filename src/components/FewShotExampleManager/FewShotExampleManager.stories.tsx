@@ -28,7 +28,7 @@ const SAMPLE_EXAMPLES: FewShotExample[] = [
 ]
 
 const meta: Meta<typeof FewShotExampleManager> = {
-  title: 'Components/FewShotExampleManager',
+  title: 'Pro/FewShotExampleManager',
   component: FewShotExampleManager,
   parameters: { layout: 'centered' },
   decorators: [

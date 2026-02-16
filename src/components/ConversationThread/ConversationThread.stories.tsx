@@ -85,7 +85,7 @@ The generic \`T\` allows the hook to work with any type while maintaining **full
 ]
 
 const meta: Meta<typeof ConversationThread> = {
-  title: 'Components/ConversationThread',
+  title: 'Starter/ConversationThread',
   component: ConversationThread,
   parameters: { layout: 'centered' },
   decorators: [
