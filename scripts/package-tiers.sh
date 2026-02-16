@@ -245,22 +245,12 @@ build_tier() {
   copy_components "$dest" "${components[@]}"
   generate_index "$dest" "${components[@]}"
 
-  # Pro tier includes demo + storybook config
+  # Both tiers include storybook config (stories are inside each component folder)
+  [ -d "$ROOT/.storybook" ] && mkdir -p "$dest/.storybook" && cp -r "$ROOT/.storybook/." "$dest/.storybook/"
+
+  # Pro tier also includes the demo workbench
   if [ "$tier_name" = "pro" ]; then
     [ -d "$ROOT/src/demo" ] && mkdir -p "$dest/src/demo" && cp -r "$ROOT/src/demo/." "$dest/src/demo/"
-    [ -d "$ROOT/.storybook" ] && mkdir -p "$dest/.storybook" && cp -r "$ROOT/.storybook/." "$dest/.storybook/"
-
-    # Include hook-specific files used by pro components
-    for comp in "${components[@]}"; do
-      case "$comp" in
-        PromptComposer)
-          # useSlashCommands and useTokenCount are inside the component folder already
-          ;;
-        VariablePanel)
-          # useVariableDetection is inside the component folder already
-          ;;
-      esac
-    done
   fi
 
   # Create zip
